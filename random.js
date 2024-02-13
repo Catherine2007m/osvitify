@@ -16,8 +16,8 @@
             var header = "<h3>Випадковий факт</h3>";
             var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 var today = new Date().toLocaleDateString('uk-UA', options);
-            var paragraph = "<p>" + getRandomParagraph() + "</p>";
-            document.getElementById("content").innerHTML = header + "<p>" + today + "</p>" + paragraph;
+            var paragraph = "<p1>" + getRandomParagraph() + "</p1>";
+            document.getElementById("content").innerHTML = header + "<p1>" + today + "</p1>" + paragraph;
         }
 
         // Call updateContent on page load
