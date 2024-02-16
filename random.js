@@ -19,7 +19,7 @@ var today = new Date().toLocaleDateString('uk-UA', options);
 var yourtime = "<p1>Час в Україні:</p1>";
 var time = new Date().toLocaleString('uk-UA', { timeZone: "Europe/Kiev" });           
 var paragraph = "<p1>" + getRandomParagraph() + "</p1>";
-            document.getElementById("content").innerHTML = "<p1>" + today + "</p1>" + "<p1>" + yourtime + time + "</p1>" + header + paragraph;
+            document.getElementById("content").innerHTML = header + "<p1>" + today + "</p1>" + "<p1>" + yourtime + time + "</p1>" + paragraph;
         }
 
         // Call updateContent on page load
