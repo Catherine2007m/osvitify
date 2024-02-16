@@ -17,7 +17,7 @@
             var options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
 var today = new Date().toLocaleDateString('uk-UA', options);
 var yourtime = "<p1>Час в Україні:</p1>";
-var time = newDate().toLocaleString('uk-UA', { timeZone: "Kyiv/Ukrains" });            var paragraph = "<p1>" + getRandomParagraph() + "</p1>";
+var time = newDate().toLocaleString('uk-UA', { timeZone: "Kyiv/Ukraine" });            var paragraph = "<p1>" + getRandomParagraph() + "</p1>";
             document.getElementById("content").innerHTML = "<p1>" + today + "</p1>" + "<p1>" + yourtime + time + "</p1>" + header + paragraph;
         }
 
