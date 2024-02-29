@@ -1,3 +1,107 @@
+<!DOCTYPE html>
+<html lang="uk-UA">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Kalnia:wght@500&display=swap');
+svg {
+width: 50px;
+height: 50px;
+}
+/* unvisited link */
+h3 a:link {
+color: green;
+}
+
+/* visited link */
+h3 a:visited {
+color: green;
+}
+
+/* mouse over link */
+h3 a:hover {
+color: white;
+}
+
+/* selected link */
+h3 a:active {
+color: white;
+}
+
+ul a {
+list-style-type: circle;
+
+} 
+
+ul a:link {
+color: green;
+}
+
+/* visited link */
+ul a:visited {
+color: green;
+}
+
+/* mouse over link */
+ul a:hover {
+color: white;
+}
+
+/* selected link */
+ul a:active {
+color: white;
+} 
+</style>
+<script> (function (w, d, s, o, f, js, fjs) { w["botsonic_widget"] = o; w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments); }; (js = d.createElement(s)), (fjs = d.getElementsByTagName(s)[0]); js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs); })(window, document, "script", "Botsonic", "https://widget.writesonic.com/CDN/botsonic.min.js"); Botsonic("init", { serviceBaseUrl: "https://api.botsonic.ai", token: "2a9ae5ff-005e-48e1-92e5-03bf76e2d38e", }); </script>
+<script>
+function ScrollToTop() {
+window.scrollTo({
+top: 0,
+behavior: "smooth"
+});
+}
+</script>
+
+<title>Словники</title>
+<link rel="icon" href=
+"https://i.ibb.co/LSxsWRg/Vista-Create-Design.png"
+type="image/x-icon">
+</head>
+<body>
+<div>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<header>
+<div class="container">
+<div id="branding">
+<h1><span class="highlight">TheYarmarok</span></h1>
+<p>База знань для учнів і студентів</p>
+</div>
+<nav>
+<ul>
+<li><a href="index.html">Головна</a></li>
+<li><a href="about.html">Про нас</a></li>
+<li><a href="faq.html">FAQ</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<div class="scroll-container">
+
+<button class="scroll-to-top" onclick="ScrollToTop()">
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+<path fill-rule="evenodd" d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708l6-6z" />
+<path fill-rule="evenodd" d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708l6-6z" />
+</svg>
+</button>
+
+</div>
+<div>
+
+<!-- Header and buttons -->
+<h3>Словники</h3>
+
 <div id="all">
 <h3><a href="https://www.collinsdictionary.com/">Collins Dictionary</a></h3> <p1>Великий словник, має також діалектизми, пояснення тощо.</p1>
 <h3><a href="https://dictionary.cambridge.org/">Cambridge Dictionary</a></h3> <p1>Класичний Кембріджський словник.</p1>
@@ -9,50 +113,71 @@
 <h3><a href="https://www.wordreference.com/">Wordreference</a></h3> <p1>Не лише слова, але й відмінювання.</p1>
 </div>
 
->>English
+<div id="UA">
+<h3>Словники української мови</h3>
+<h3><a href="https://sum.in.ua/">Словник Української Мови</a></h3> <p1>Академічний тлумачний словник. Здається, класика :) </p1>
+
+<h3><a href="https://sum20ua.com/Entry/index?wordid=1&page=0">Словник НАН України</a></h3> <p1>Тлумачний словник, що рекомендують в підручниках</p1>
+
+<h3><a href="https://lcorp.ulif.org.ua/dictua/">Інші словники НАН</a></h3> <p1>Сучасне мовознавство - синоніми, фразеологія тощо</p1>
+
+<h3><a href="https://www.inmo.org.ua/pravopys-2019.html">Сучасний правопис</a></h3> <p1>Величенький підручник з нової української граматики, можна по ньому готуватися до контрольних</p1>
+</div>
+
+<div id="EN">
 <h3><a href="https://www.ldoceonline.com/">LDOCE Online</a></h3> <p1>Онлайн версія великого словника англійської мови.</p1>
 <h3><a href="https://www.oed.com/?tl=true">Oxford English Dictionary</a></h3> <p1>Авторитетний словник англійської мови.</p1>
 <h3><a href="https://www.merriam-webster.com/">Merriam-Webster</a></h3> <p1>Відомий американський словник.</p1>
 <h3><a href="https://www.dictionary.com/">Dictionary.com</a></h3> <p1>Популярний англійський словник.</p1>
 <h3><a href="https://www.oxfordlearnersdictionaries.com/">Oxford Learner's Dictionaries</a></h3> <p1>Словники для вивчення англійської мови.</p1>
+</div>
 
->>German
+<div id="DE">
 <h3><a href="https://www.duden.de/">Duden</a></h3> <p1>Відомий німецький словник.</p1>
 <h3><a href="https://www.dwds.de/">DWDS</a></h3> <p1>Словник сучасної німецької мови.</p1>
 <h3><a href="https://woerterbuchnetz.de/">Wörterbuchnetz</a></h3> <p1>Мережа словників німецької мови.</p1>
+</div>
 
->>Spanish
+<div id="ES">
 <h3><a href="https://dle.rae.es/">DLE RAE</a></h3> <p1>Словник іспанської мови.</p1>
 <h3><a href="https://www.fbbva.es/diccionario/">Diccionario BBVA</a></h3> <p1>Словник Фонду Більбао-Візкаїя-Аргентарія.</p1>
 <h3><a href="https://dem.colmex.mx/">DEM COLMEX</a></h3> <p1>Словник Мексиканського колегіуму.</p1>
 <h3><a href="https://www.diccionariofacil.org/">Diccionario Fácil</a></h3> <p1>Словник для спрощеної інтерпретації текстів.</p1>
+</div>
 
->>French
+<div id="FR"> 
 <h3><a href="https://www.linguee.com/french-english">Linguee</a></h3> <p1>Словник французької та англійської мов.</p1>
 <h3><a href="https://dictionnaire.lerobert.com/">Dictionnaire Le Robert</a></h3> <p1>Відомий словник французької мови.</p1>
 <h3><a href="https://www.larousse.fr/dictionnaires/francais-monolingue">Larousse</a></h3> <p1>Французький одномовний словник.</p1>
 <h3><a href="https://www.le-dictionnaire.com/">Le Dictionnaire</a></h3> <p1>Інтернет-словник французької мови.</p1>
 <h3><a href="https://www.linternaute.fr/dictionnaire/fr/">Linternaute</a></h3> <p1>Французький словник для інтернет-користувачів.</p1>
+</div>
 
->>Italian
+<div id="IT">
 <h3><a href="https://dizionari.corriere.it/dizionario_italiano/">Dizionario Corriere</a></h3> <p1>Італійський словник Коррієре дельла Сера.</p1>
 <h3><a href="https://www.treccani.it/vocabolario/">Treccani</a></h3> <p1>Видатний словник італійської мови.</p1>
 <h3><a href="https://www.grandidizionari.it/dizionario_italiano.aspx">Grande Dizionario</a></h3> <p1>Великий словник італійської мови.</p1>
 <h3><a href="https://www.dizionario-italiano.it/">Dizionario Italiano</a></h3> <p1>Італійський словник онлайн.</p1>
+</div>
 
->>Polish
+<div id="PL">
 <h3><a href="https://sjp.pwn.pl/">Słownik Języka Polskiego PWN</a></h3> <p1>Онлайн словник Польської академії наук.</p1>
 <h3><a href="https://wsjp.pl/">Wielki słownik języka polskiego</a></h3> <p1>Великий словник польської мови.</p1>
 <h3><a href="https://www.synonimy.pl/">Synonimy</a></h3> <p1>Словник синонімів польської мови.</p1>
+</div>
 
->>Czech
+<div id="CZ">
 <h3><a href="https://www.nechybujte.cz/slovnik-soucasne-cestiny">Slovník současné češtiny</a></h3> <p1>Словник сучасної чеської мови.</p1>
 <h3><a href="https://www.slovnikcestiny.cz/uvod.php">Slovník češtiny</a></h3> <p1>Словник чеської мови.</p1>
 <h3><a href="https://www.czechency.org/slovnik">Czechency</a></h3> <p1>Онлайн словник чеської мови.</p1>
+</div>
 
->>Japanese<h3><a href="https://jisho.org/">Jisho</a></h3> <p1>Японсько-англійський словник.</p1>
+<div id="JP">
+<h3><a href="https://jisho.org/">Jisho</a></h3> <p1>Японсько-англійський словник.</p1>
 <h3><a href="https://www.japandict.com/">Japandict</a></h3> <p1>Онлайн словник японської мови.</p1>
 <h3><a href="https://tangorin.com/">Tangorin</a></h3> <p1>Словник японської мови та канжі.</p1>
 <h3><a href="https://mazii.net/vi-VN">Mazii</a></h3> <p1>Словник японської мови та канжі.</p1>
 <h3><a href="https://www.nihongomaster.com/japanese/dictionary">Nihongo Master</a></h3> <p1>Словник японської мови для вивчення.</p1>
 <h3><a href="https://www.gavo.t.u-tokyo.ac.jp/ojad/eng/pages/home">OJAD</a></h3> <p1>Онлайн словник японської фонетики.</p1>
+</div>
+</div> </body> </html>
