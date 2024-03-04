@@ -346,3 +346,10 @@ h3 a:active {
   box-shadow: 0px 3px 10px rgba(0,0,0,.25);
   color: white;
 }
+
+.fa-google {
+  background: #8BC34A;
+  background: radial-gradient(circle at 30% 107%, #AED581 5%, #7CB342 5%, #CDDC39 40%,#AEEA00 60%,#9CCC65 90%);
+  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  color: white;
+}
