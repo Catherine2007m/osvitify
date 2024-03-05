@@ -267,6 +267,16 @@ p1 {
   color: #035c1c;
 }
 
+section p {
+    font-family: 'Kalnia', serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin: 10px;
+  color: #035c1c;
+}
+
 /* unvisited link */
 h3 a:link {
   color: green;
