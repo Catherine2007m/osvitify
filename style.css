@@ -268,11 +268,11 @@ p1 {
 }
 
 section p {
-    font-family: 'Kalnia', serif;
   font-size: 16px;
   display: flex;
   flex-direction: row;
   text-align: center;
+  justify-content: center;
   margin: 10px;
 }
 
