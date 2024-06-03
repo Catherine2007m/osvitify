@@ -13,5 +13,5 @@
   })(window, document, "script", "Botsonic", "https://widget.writesonic.com/CDN/botsonic.min.js");
   Botsonic("init", {
     serviceBaseUrl: "https://api-azure.botsonic.ai",
-    token: "3d0c59bf-a04f-4f92-8b3f-b18eb288e339",
+    token: "cfe1471e-e3f1-4b4a-8570-6030ee770596",
   });
