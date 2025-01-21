@@ -5,7 +5,13 @@ html, body {
 Created with https://www.css-gradient.com
 Gradient link: https://www.css-gradient.com/?c1=01ccff&c2=eee602&gt=l&gd=dtt
 Buttons made with https://getcssscan.com/css-buttons-examples Thanks! */
-font-family: 'Kalnia', serif;  font-size: 20px; background: #af01ff; background: linear-gradient(200deg, #af01ff, #40e6ff); background-attachment: fixed; align-items: center;  justify-content: center;  height: 100%;  width: 100%;   }
+font-family: 'Audiowide', serif;  font-size: 20px; background: #af01ff; background: linear-gradient(200deg, #af01ff, #40e6ff); background-attachment: fixed; align-items: center;  justify-content: center;  height: 100%;  width: 100%;   }
+
+.audiowide-regular {
+  font-family: "Audiowide", serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 button {  background-color: #cac2fb;  border-radius: 100px;  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;  color: #3a236e;  cursor: pointer;  display: flex;  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;  padding: 7px 20px;  text-align: center;  text-decoration: none;  transition: all 250ms;  border: 0;  font-size: 16px;  user-select: none;  -webkit-user-select: none;  touch-action: manipulation;  align-items: center;  justify-content: center
  
