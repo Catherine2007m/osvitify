@@ -7,7 +7,7 @@ Gradient link: https://www.css-gradient.com/?c1=01ccff&c2=eee602&gt=l&gd=dtt
 Buttons made with https://getcssscan.com/css-buttons-examples Thanks! */
 font-family: 'Kalnia', serif;  font-size: 20px; background: #af01ff; background: linear-gradient(200deg, #af01ff, #40e6ff); background-attachment: fixed; align-items: center;  justify-content: center;  height: 100%;  width: 100%;   }
 
-button {  background-color: #cac2fb;  border-radius: 100px;  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;  color: white;  cursor: pointer;  display: flex;  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;  padding: 7px 20px;  text-align: center;  text-decoration: none;  transition: all 250ms;  border: 0;  font-size: 16px;  user-select: none;  -webkit-user-select: none;  touch-action: manipulation;  align-items: center;  justify-content: center
+button {  background-color: #cac2fb;  border-radius: 100px;  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;  color: #3a236e;  cursor: pointer;  display: flex;  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;  padding: 7px 20px;  text-align: center;  text-decoration: none;  transition: all 250ms;  border: 0;  font-size: 16px;  user-select: none;  -webkit-user-select: none;  touch-action: manipulation;  align-items: center;  justify-content: center
  
 }
 
@@ -15,7 +15,7 @@ button {
  background-color: #cac2fb;
   border-radius: 100px;
   box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
-  color: white;
+  color: #3a236e;
   cursor: pointer;
   display: flex;
   font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
@@ -60,7 +60,7 @@ header{
 
 header a{
 display: flex;
-  color:white;
+  color:#3a236e;
   text-decoration:none;
   text-transform: uppercase;
   font-size:14px;
@@ -121,7 +121,7 @@ h3 {
   justify-content: center;
   align-items: center;
   margin: 30px;
-  color: white;
+  color: #3a236e;
 }
 
 @media (max-width: 768px) {
@@ -190,7 +190,7 @@ input {
 }
 
 ::placeholder {
-  color: white;
+  color: #3a236e;
   opacity: 0.7; 
 }
 
@@ -248,11 +248,11 @@ svg {
 	left: calc(50% - 9px);
 	width: 18px;
 	height: 18px;
-	background-color: white;
+	background-color: #3a236e;
 	border: 1px solid rgb(0,153,76);
 	border-radius: 50%;
-	box-shadow: inset 0 0 0 2px white,
-					0 0 0 4px white;
+	box-shadow: inset 0 0 0 2px #3a236e,
+					0 0 0 4px #3a236e;
 }
 
 /* Divider snippet: https://codepen.io/Oddgson/pen/VPrYbv Thank you!!!*/
@@ -278,7 +278,7 @@ section p {
 
 /* unvisited link */
 h3 a:link {
-  color: white;
+  color: #3a236e;
 }
 
 /* visited link */
