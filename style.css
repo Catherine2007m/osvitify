@@ -61,7 +61,7 @@ header{
   padding-top:30px;
   min-height:80px;
   border-bottom:white 2px solid;
-  font-family: 'Kalnia', serif;
+  font-family: 'Audiowide', serif;
 }
 
 header a{
@@ -115,11 +115,11 @@ header p {
 }
 
 h1 {
-    font-family: 'Kalnia', serif;
+    font-family: 'Audiowide', serif;
 }
 
 h3 {
- font-family: 'Kalnia', serif;
+ font-family: 'Audiowide', serif;
   font-size: 30px;
   display: flex;
   flex-direction: column;
