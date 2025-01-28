@@ -127,7 +127,7 @@ h3 {
   justify-content: center;
   align-items: center;
   margin: 30px;
-  color: #dcdcff;
+  color: #FFFFFF;
 }
 
 @media (max-width: 768px) {
@@ -270,7 +270,7 @@ p1 {
   flex-direction: column;
   text-align: center;
   margin: 10px;
-  color: #dcdcff;
+  color: #FFFFFF;
 }
 
 section p {
