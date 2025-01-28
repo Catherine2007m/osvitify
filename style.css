@@ -282,6 +282,7 @@ section p {
   margin: 10px;
   background: #af01ff; 
   background: linear-gradient(200deg, #af01ff, #40e6ff);
+  background-attachment: fixed; align-items: center;  justify-content: center;  height: 100%;  width: 100%; 
 }
 
 /* unvisited link */
