@@ -280,6 +280,8 @@ section p {
   text-align: center;
   justify-content: center;
   margin: 10px;
+  background: #af01ff; 
+  background: linear-gradient(200deg, #af01ff, #40e6ff);
 }
 
 /* unvisited link */
